@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal" android:id="@+id/activity_root">
+<androidx.fragment.app.FragmentContainerView android:id="@+id/chats_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="35" />
+<FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="65">
+<TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:text="@string/select_chat" android:textAppearance="?attr/textAppearanceHeadline6" />
+<androidx.fragment.app.FragmentContainerView android:id="@+id/messages_container" android:layout_width="match_parent" android:layout_height="match_parent" android:background="?android:attr/colorBackground" />
+</FrameLayout></LinearLayout>

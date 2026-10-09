@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.Messenger" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#365DAB</item>
+        <item name="colorSecondary">#365DAB</item>
+    </style>
+</resources>
